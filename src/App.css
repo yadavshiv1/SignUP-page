@@ -1,0 +1,92 @@
+/***    General     ***/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: CircularStd;
+}
+
+body {
+    margin: 0 auto
+}
+h5{
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+.m-5-auto {
+    margin: 5rem auto
+}
+
+
+/***    Sign in Page     ***/
+h2 {
+    font-weight: 300
+}
+
+form {
+    display: inline-block;
+    background: #f3f3f3;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    padding: 2rem;
+    margin: 2rem 0 1rem 0;
+}
+
+
+form label {
+    float: left;
+    font-size: .9rem;
+    margin: 0;
+    padding: 0
+}
+
+.right-label {
+    float: right;
+    cursor: pointer
+}
+
+input {
+    width: 15rem;
+    padding: .3rem;
+    border-radius: 10px solid black;
+
+}
+
+#sub_btn {
+    display: block;
+    width: 100%;
+    padding: .3rem;
+    border: none;
+    background: red;
+    color: #fff;
+    border-radius: 10px;
+}
+
+#sub_btn:hover {
+    background: #333;
+    transition: all .5s
+}
+
+/***    Sign Up Page     ***/
+#checkbox {
+    width: 1rem
+}
+
+form span {
+    font-size: .8rem
+}
+
+#reset_pass_lbl {
+    float: left
+}
+form {
+    box-shadow: 5px 5px 5px 5px rgb(191, 183, 183);
+    background-color: #f1f1f1;
+    border-radius: 4px;
+}
+
+form{
+    background-color: #f3f3f3;
+}
